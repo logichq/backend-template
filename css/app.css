@@ -39,6 +39,8 @@
     border-bottom: 1px solid #f7f8f9;
     position: fixed;
     top: 0;
+    margin-left: 60px;
+    align-items: center;
 }
 .footbar{
     width: 100%;
@@ -87,3 +89,16 @@
     height: Calc(100vh - 60px);
     background-color:#f7f8f9;
 }
+
+.w-100{
+    width:100% !important;
+}
+
+/* .btn-dropdown{
+    display: initial !important;
+
+}
+
+.btn-dropdown > svg{
+    margin-top: 5px;
+} */
