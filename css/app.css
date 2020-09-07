@@ -4,7 +4,7 @@
 
 .sidebar {
     background: white;
-    border-right: 2px solid #f7f8f9;
+    border-right: 2px solid #EFF0F0;
     bottom: 0;
     left: 0;
     width: 60px;
@@ -18,34 +18,37 @@
 .brand {
     padding: 10px;
     color: #505c6e;
-    border-bottom: 1px solid #f7f8f9;
+    border-bottom: 1px solid #EFF0F0;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.brand > a {
+.brand>a {
     text-decoration: none;
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
     font-weight: bold;
     font-size: 20px;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     height: 60px;
-    border-bottom: 1px solid #f7f8f9;
+    border-bottom: 1px solid #EFF0F0;
     position: fixed;
     top: 0;
     margin-left: 60px;
     align-items: center;
 }
-.footbar{
+
+.footbar {
     width: 100%;
     height: 30px;
-    border-top: 1px solid #f7f8f9;
+    border-top: 1px solid #EFF0F0;
     position: fixed;
     bottom: 0;
 }
@@ -56,10 +59,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.sidebar-btn > a {
+.sidebar-btn>a {
     width: 100%;
     height: 100%;
     /* text-decoration: none; */
@@ -67,38 +70,56 @@
     /* text-decoration: inherit; */
 }
 
-.sidebar-btn > a:hover {
-    background-color: #f1f1fc;
+.sidebar-btn>a:hover {
+    /* background-color: #f1f1fc; */
+    
+    background-color: #f9f8fa!important;
 }
 
-.sidebar-btn > a  > svg{
+.sidebar-btn>a>svg {
     width: 18px;
     margin-top: 15px;
 }
 
-.sidebar-last{
+.sidebar-last {
     bottom: 0;
     position: absolute;
     width: 100%;
 }
 
-.container-page{
+.container-page {
     margin-left: 60px;
     margin-top: 60px;
     width: 100%;
     height: Calc(100vh - 60px);
-    background-color:#f7f8f9;
+    background-color: #F9FBFC;
 }
 
-.w-100{
-    width:100% !important;
+.w-100 {
+    width: Calc(100% - 60px) !important;
 }
 
-/* .btn-dropdown{
-    display: initial !important;
+.btn-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.btn-dropdown > svg{
-    margin-top: 5px;
-} */
+.btn-navbar-clear {
+    border-color: #EFF0F0;
+    color: black;
+}
+
+.btn-navbar-clear:hover {
+    background-color: #f7f8f9!important;
+    border-color: black;
+    color: black;
+}
+
+.btn-navbar-color{
+    /* background-color: rgb(80, 92, 110);;
+    color: white;
+    border-color: rgb(80, 92, 110);; */
+}
+
